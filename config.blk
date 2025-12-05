@@ -1,0 +1,143 @@
+releaseChannel:t=""
+renderer3:t="auto"
+rdseed:i=12388
+graphicsQuality:t="custom"
+language:t="Korean"
+use_release_candidate:b=no
+forcedLauncher:i=0
+doShowDriversOutdated:b=yes
+use_eac:b=no
+use_gamepad_interface:b=no
+DummyRTX:t="1"
+oculus{
+  edgeScale:r=0.950000
+  magnetometerEnabled:b=no
+  maxSeparation:r=0.000500
+  predictionEnabled:b=no
+  zeroParallaxDist:r=3.000000
+  k2:r=0.666000
+  k1:r=0.500000
+  fovMul:r=1.200000
+}
+launcher{
+  startup_with_windows:b=yes
+  hide_to_tray_option:b=yes
+  bg_update:b=yes
+}
+graphics{
+  enableSuspensionAnimation:b=no
+  backgroundScale:r=1.000000
+  clipmapScale:r=1.500000
+  cloudsQuality:i=0
+  contactShadowsQuality:i=2
+  tireTracksQuality:i=3
+  texquality:t="high"
+  fxDensityMul:r=0.200000
+  grassRadiusMul:r=1.800000
+  rendinstDistMul:r=3.500000
+  foamQuality:t="low"
+  advancedShore:b=yes
+  lenseFlares:b=yes
+  waterQuality:t="ultrahigh"
+  anisotropy:i=16
+  dirtSubDiv:i=1
+  displacementQuality:i=4
+  landquality:i=1
+  panoramaResolution:i=4096
+  ssaa:r=1.000000
+  shadowQuality:t="ultrahigh"
+  lastClipSize:i=8192
+  skyQuality:i=1
+  foliageReprojection:b=no
+  physicsQuality:i=5
+  waterEffectsQuality:t="high"
+  compatibilityShadowQuality:t="low"
+  giQuality:t="high"
+  fxTarget:t="ultrahigh"
+  mirrorQuality:i=10
+  riGpuObjects:b=yes
+  enableBVH:b=yes
+  RTAOQuality:t="off"
+  RTRTranslucent:t="off"
+  bvhRiGenRange:i=1000
+  RTRWaterRes:t="half"
+  RTRRes:t="half"
+  RTRQuality:t="off"
+  motionBlurStrength:i=0
+  enableRTSM:t="off"
+  bvhMode:t="off"
+  RTRWater:b=no
+  motionBlurCancelCamera:b=yes
+  RTSMQuality:t="low"
+  PTGIQuality:t="off"
+  bloomQuality:i=1
+}
+download{
+  peer_exchange:b=yes
+  dnl_limit:b=no
+  DHT:b=yes
+  dnl_speed_rate:i=1000
+  upl_speed_rate:i=1000
+  seeding_on:b=yes
+  upl_limit:b=no
+  UTP2:b=no
+}
+yunetwork{
+  webStatusLocalhostOnly:b=yes
+  webStatusPort:i=23456
+  curCircuit:t="production"
+  enableWebStatus:b=no
+}
+render{
+  ssrQuality:i=2
+  staticShadowsOnEffects:b=no
+  haze:b=yes
+  ssaoQuality:i=2
+  rendinstGlobalShadows:b=no
+  grass:b=no
+  softFx:b=no
+  shadows:b=yes
+  selfReflection:b=yes
+}
+debug{
+  enableNvHighlights:t="auto"
+  screenshotAsJpeg:b=yes
+  512mboughttobeenoughforanybody:b=yes
+  netLogerr:b=yes
+  screenshotHiRes:b=no
+}
+sound{
+  speakerMode:t="auto"
+  fmod_sound_enable:b=yes
+  enable_mod:b=yes
+}
+video{
+  resolution:t="1920 x 1080"
+  vrMode:b=no
+  instancing:t="auto"
+  postfx_antialiasing:t="none"
+  windowed:b=no
+  mode:t="fullscreen"
+  alpha_to_coverage:b=no
+  compatibilityMode:b=no
+  driver:t="dx12"
+  vsync:b=no
+  adaptive_vsync:b=no
+  fonts:t="compact"
+  antialiasing_mode:t="dlss"
+  antialiasing_upscaling:t="quality"
+  antialiasing_sharpening:i=0
+  latency:i=1
+  vrStreamerMode:b=no
+  perfMetrics:i=3
+  monitor:t="auto"
+  vreye:t="left"
+  antialiasing_fgc:i=2
+}
+directx{
+  maxaa:i=0
+  enableHdr:b=no
+}
+gameplay{
+  enableVR:b=no
+}
